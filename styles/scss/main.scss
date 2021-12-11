@@ -1,0 +1,13 @@
+@use 'reset';
+@use 'container';
+
+body
+{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right bottom, #7bafeb, #2f6ed3);
+    color: #fff;
+}
