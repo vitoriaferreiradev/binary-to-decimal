@@ -39,15 +39,16 @@
   height: 100%;
   background: 0;
   border: 0;
-  appearance: textfield;
-  -moz-appearance: textfield;
   font-size: 1.25rem;
   color: #444;
   padding-left: 0.813rem;
   outline: none;
 }
-.container__input::placeholder {
-  color: #000;
+.container input[type=number]::-webkit-inner-spin-button,
+.container input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .container__btn {
   font-size: 1rem;
